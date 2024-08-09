@@ -1,0 +1,29 @@
+# Título do Projeto Extremamente Aesthetic ;)
+
+## 📒 Descrição
+Uso de IA Regenerativa na geraçao de testes em java usando junit e mokito
+
+## 🤖 Tecnologias Utilizadas
+copilot
+
+## 🧐 Processo de Criação
+Uso a um bom tempo Ia para gerar testes de todos as minhas classes em java 
+Para um melhor resultado  sempre faço as perguntas em ingles, ja testei no gmini e no watson, o ingles foi onde obtive melhores resultados.
+Esemplo:
+generate a complete test using junit and mokito for
+
+
+## 🚀 Resultados
+Esse é uma classe de teste gerada apartir de uma classe
+public class UserService {
+    private final UserRepository userRepository;
+
+    public UserService(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
+
+    public User getUserById(Long id) {
+        return userRepository.findById(id).orElse(null);
+    }
+}
+
